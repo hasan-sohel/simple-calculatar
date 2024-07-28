@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100vh;
+}
+.row{
+    display: flex;
+}
+.row div{
+    border: 2px solid green;
+    border-radius: 8px;
+    height: 40px;
+    width: 96px;
+    margin: 3px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+}
+#output{
+    width: 302px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    color: black;
+}
